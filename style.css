@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background: #080f20;
+    padding: 20px;
+    font-family: "Roboto Slab", serif;
+  }
+h1{
+    color: rgb(1, 148, 246);
+}
+
+
+
+
+  .wrapper {
+    margin: 50px auto;
+    background: rgb(181, 200, 216);
+    max-width: 800px;
+    box-shadow: 0px 25px 30px -20px rgba(0, 0, 0, 0.2);
+  }
+
+  .filter {
+    padding: 20px 0;
+    margin-bottom: 20px;
+    border-bottom: solid 1px #0e021d;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .filter a {
+    margin-right: 10px;
+    color: rgb(10, 30, 37);
+    text-decoration: none;
+    border: 1px solid rgb(1, 2, 51);
+    padding: 4px 15px;
+    border-radius: 50px;
+    display: inline-block;
+  }
+
+  .filter a.current {
+    background: #1e1e1e;
+    border: 1px solid #1e1e1e;
+    color: #f9f9f9;
+  }
+
+  .grid {
+    margin: 0 auto;
+    padding: 10px;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+  }
+
+  .grid-item {
+    width: 180px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .fancybox {
+    display: block;
+    width: 100%;
+    height: 100%;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all .5s;
+  }
+
+  .grid-item:hover .fancybox {
+    transform: scale(1.1);
+  }
+
+  .grid-item:nth-child(1) .fancybox {
+    background-image: url(https://myalbum.com/photo/sSyAbiWBwTfp/540.jpg);
+  }
+
+  .grid-item:nth-child(2) .fancybox {
+    background-image: url(https://myalbum.com/photo/tQagQUAviXPM/1k0.jpg);
+  }
+
+  .grid-item:nth-child(3) .fancybox {
+    background-image: url(https://myalbum.com/photo/zm2d4Fpffd2R/1k0.jpg);
+  }
+
+  .grid-item:nth-child(4) .fancybox {
+    background-image: url(https://myalbum.com/photo/GyVNFN2wEnss/1k0.jpg);
+  }
+
+  .grid-item:nth-child(5) .fancybox {
+    background-image: url(https://myalbum.com/photo/Efrka8E5jv2Z/540.jpg);
+  }
+
+  .grid-item:nth-child(6) .fancybox {
+    background-image: url(https://myalbum.com/photo/bRSnv4PkAfgL/1k0.jpg);
+  }
+
+  .grid-item:nth-child(7) .fancybox {
+    background-image: url(https://myalbum.com/photo/FJyyxny5QFxw/1k0.jpg);
+  }
+
+  .grid-item:nth-child(8) .fancybox {
+    background-image: url(https://myalbum.com/photo/zgvgqBoSL5mJ/1k0.jpg);
+  }
+
+  .grid-item:nth-child(9) .fancybox {
+    background-image: url(https://64.media.tumblr.com/4eab4254b14f6b1bd67652fefb164112/7ecd57194c515dfb-45/s500x750/5fdb8583c08d9634b22cb6da7f08b0502d981a19.jpg);
+  }
+
+  .grid-item:nth-child(10) .fancybox {
+    background-image: url(https://myalbum.com/photo/PZmV39KdgUhN/1k0.jpg);
+  }
+
+  .grid-item:nth-child(11) .fancybox {
+    background-image: url(https://myalbum.com/photo/2S4pHH9CZ3t6/1k0.jpg);
+  }
+
+  .grid-item:nth-child(12) .fancybox {
+    background-image: url(https://myalbum.com/photo/7st6yBJndqYX/1k0.jpg);
+  }
+
+  .grid-item:nth-child(13) .fancybox {
+    background-image: url(https://myalbum.com/photo/ZjjFmDc7fSLN/1k0.jpg);
+  }
+
+  .grid-item:nth-child(14) .fancybox {
+    background-image: url(https://myalbum.com/photo/Xh4xN6hsjH5C/1k0.jpg);
+  }
+
+  .grid-item:nth-child(15) .fancybox {
+    background-image: url(https://myalbum.com/photo/EE39cQrwxRxK/1k0.jpg);
+  }
+
+  .grid-item:nth-child(16) .fancybox {
+    background-image: url(https://myalbum.com/photo/bjfsWpEvBYwP/1k0.jpg);
+  }
+
+  .grid-item:nth-child(17) .fancybox {
+    background-image: url(https://myalbum.com/photo/TwP4hVvkLtyR/1k0.jpg);
+  }
+
+  .grid-item:nth-child(18) .fancybox {
+    background-image: url(https://myalbum.com/photo/zgvgqBoSL5mJ/1k0.jpg);
+  }
+
+  .grid-item:nth-child(19) .fancybox {
+    background-image: url(https://myalbum.com/photo/aEi2YTLsJa6S/1k0.jpg);
+  }
+
+  .grid-item:nth-child(4n-5) {
+    height: 50px;
+  }
+
+  .grid-item:nth-child(2n) {
+    height: 300px;
+  }
+
+  .grid-item:nth-child(3n) {
+    height: 120px;
+  }
+
+
+
+
+  .foot{
+      color: #00ffdd;
+      font-size: xx-large;
+      font-weight: bolder;
+      text-align: center;
+  }
